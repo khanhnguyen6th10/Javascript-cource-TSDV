@@ -1,0 +1,20 @@
+p {
+    width: 500px;
+    height: 500px;
+    color: white;
+    background-color: black;
+    /* padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px; */
+    /* top right bottom left */
+    /* padding: 20px 24px 0px 28px; */
+    padding: 30px;
+    /* neu tren duoi bang nhau, trai phai bang nhau */
+    padding: 24xp 28px;
+    border: 10px solid red;
+    /* div se ko bi cong them khi co padding va border  */
+    box-sizing: border-box;
+
+    
+
+}

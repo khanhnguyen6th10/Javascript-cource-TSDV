@@ -1,0 +1,7 @@
+/* 1 rem = 16px */
+p {
+    color: goldenrod;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 22px;
+}

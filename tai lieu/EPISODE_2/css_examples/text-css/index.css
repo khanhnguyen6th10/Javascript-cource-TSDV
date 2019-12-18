@@ -1,0 +1,19 @@
+a {
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+}
+
+p {
+    text-indent: 15px;
+}
+
+p {
+    text-transform: capitalize;
+}
+
+p {
+    text-shadow: blue 2px 3px 4px
+}

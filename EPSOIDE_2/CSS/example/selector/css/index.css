@@ -1,0 +1,24 @@
+#first-p{
+    color: tomato;
+}
+#seccond-p{
+    color: turquoise;
+}
+#third-p{
+    color: tan;
+}
+#fourth-p{
+    color: saddlebrown;
+}
+
+.color-blue{
+    color: blue;
+}
+
+#header h3{
+    color: brown;
+}
+
+#header a{
+    text-decoration: none;
+}

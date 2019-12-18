@@ -1,0 +1,8 @@
+p {
+  max-width: 1000px;
+  max-height: 1000px;
+  width: 500px;
+  height: 500px;
+  min-width: 200px;
+  min-height: 200px;
+}

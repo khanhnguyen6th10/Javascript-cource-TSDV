@@ -1,0 +1,9 @@
+#background-color {
+  background-color: #ccc;
+}
+
+#background-image {
+  background-image: url("https://i.ytimg.com/vi/BHACKCNDMW8/maxresdefault.jpg");
+  width: 940px;
+  height: 350px;
+}

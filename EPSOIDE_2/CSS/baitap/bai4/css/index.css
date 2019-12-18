@@ -1,0 +1,244 @@
+
+
+* {
+    margin: 0;
+}
+
+#sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    background-color: #111;
+    padding-top: 20px;
+}
+
+#sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    text-align: center;
+}
+
+#sidebar a:hover {
+    color: #f1f1f1;
+}
+
+#main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+h2 {
+    text-align: center;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    font-size: 60px;
+}
+
+p {
+    font-weight: bold;
+}
+
+#main img {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+
+.content {
+    padding: 2px 16px;
+    margin: 100px;
+}
+
+.content {
+    display: flex;
+    text-align: center;
+}
+.row1 {
+    display: block;
+    width: 33.3%;
+    text-align: center;
+}
+.row2 {
+    display: block;
+    width: 33.3%;
+    text-align: center;
+}
+.row3 {
+    display: block;
+    width: 33.3%;
+    text-align: center;
+}
+.button {
+    padding: 15px 25px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+}
+
+@media only screen and (max-width: 500px) {
+    #sidebar {
+        height: 180px;
+        width: 100%;
+        background-color: #111;
+    }
+    #sidebar a {
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        text-align: center;
+    }
+    #sidebar a:hover {
+        color: #f1f1f1;
+    }
+    #main img {
+        height: 300px;
+        width: 300px;
+        padding: 10px;
+    }
+    
+    .content {
+        padding: 2px 16px;
+        margin: 100px;
+    }
+    
+    .content {
+        display: flex;
+        text-align: center;
+    }
+    h2 {
+        border-top: 2px solid gray;
+        border-bottom: 2px solid gray;
+        margin-top: 200px;
+        font-size: 40px;
+    }
+    p {
+        font-weight: bold;
+    }
+    .row1 {
+        display: flex;
+        width: 50%;
+        text-align: center;
+    }
+    .row2 {
+        display: flex;
+        width: 50%;
+        text-align: center;
+    }
+    .row3 {
+        display: flex;
+        width: 50%;
+        text-align: center;
+    }
+    .button {
+        padding: 15px 25px;
+        font-size: 12px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 10px;
+    }
+    .button:hover {
+        background-color: #3e8e41
+    }
+    .button:active {
+        background-color: #3e8e41;
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 500px) {
+    #sidebar {
+        height: 180px;
+        width: 100%;
+        background-color: #111;
+    }
+    #sidebar a {
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        text-align: center;
+    }
+    #sidebar a:hover {
+        color: #f1f1f1;
+    }
+    #main {
+        margin-left: 160px;
+        padding: 0px 10px;
+        display: inline;
+    }
+    .content {
+        display: inline;
+    }
+    h2 {
+        text-align: center;
+        border-top: 2px solid gray;
+        border-bottom: 2px solid gray;
+        margin-top: 200px;
+        font-size: 60px;
+    }
+    p {
+        font-weight: bold;
+    }
+    #main img {
+        height: 300px;
+        width: 300px;
+    }
+    .content {
+        margin: 100px;
+        display: inline;
+    }
+    .row1 {
+        display: block;
+        text-align: center;
+    }
+    .row2 {
+        display: block;
+        text-align: center;
+    }
+    .row3 {
+        display: block;
+        text-align: center;
+    }
+    .button {
+        padding: 15px 25px;
+        font-size: 12px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        margin: 0 auto;
+        display: block;
+        border-radius: 10px;
+    }
+    .button:hover {
+        background-color: #3e8e41
+    }
+    .button:active {
+        background-color: #3e8e41;
+    }
+}
+

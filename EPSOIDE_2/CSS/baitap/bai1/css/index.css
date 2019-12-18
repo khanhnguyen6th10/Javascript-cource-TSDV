@@ -1,0 +1,52 @@
+/* reset default CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+}
+#header{
+    width: 100%;
+    height: 20%;
+    background-color: salmon;
+}
+/* end header CSS */
+
+/* main-content CSS */
+#main-content{
+    width: 100%;
+    height: 60%;
+}
+/* end main-content CSS */
+
+#content{
+    width: 50%;
+    height: 100%;
+    background-color: tan;
+    float: left;
+}
+
+#side-bar{
+    width: 50%;
+    height: 100%;
+    background-color: slategray;
+    float: right;
+}
+
+#footer{
+    width: 100%;
+    height: 20%;
+    background-color: seagreen ;
+}
+
+.clear{
+    clear:both;
+}
+
+/* co the lam theo cong thuc BEM de nhat quan CSS */
+/* moi mot trinh duyet se co CSS default ~ cach mot doan trang defaults */

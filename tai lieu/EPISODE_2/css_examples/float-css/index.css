@@ -1,0 +1,22 @@
+#container {
+  width: 1000px;
+  height: 500px;
+}
+
+#left-column {
+  width: 500px;
+  height: 500px;
+  background: red;
+  float: left;
+}
+
+#right-column {
+  width: 500px;
+  height: 500px;
+  background: blue;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}

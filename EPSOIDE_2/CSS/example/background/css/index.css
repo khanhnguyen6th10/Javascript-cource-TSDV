@@ -1,0 +1,18 @@
+body {
+    background-color: grey;
+
+}
+
+div {
+    /* dang o index.css di ra ngoai thu muc css va di vao trong thu muc img */
+    background-image: url("../img/anh1.jpg");
+    /* ko bi lap lai background */
+    /* background-repeat: no-repeat;  */
+    /* border-width: 20px;
+    border-color: white;
+    border-style: solid; */
+    border: 20px solid red;
+    border-radius: 50%;
+    width: 1200px;
+    height: 1200px;
+}
