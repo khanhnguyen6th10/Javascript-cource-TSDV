@@ -36,7 +36,7 @@
 
 // Bai 6: tim phan tu nho nhat trong mang 5 phan tu
 // let array = [1,2,3,4,5];
-// let min = [99];
+// let min = [1];
 // for (let i in array){
 //     if (min > array[i]){
 //         min = array[i];
