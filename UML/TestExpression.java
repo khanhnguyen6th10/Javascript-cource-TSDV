@@ -60,3 +60,49 @@ class SeqExp implements Expression {
 		 System.out.print(mul.eval());
 	 }
 	} 
+// Dependency: A lúc này có mối quan hệ dependency với B(Khi B xuất hiện trong 1 hàm nào đó của A - B là local variable) 
+// A{
+// 	A(){}
+// 	a(){ 
+// 		B b;
+// 	}
+// }
+// B{...}
+
+// => Mũi tên
+// Association: A lúc này có mối quan hệ association với B (Khi B là 1 thuộc tính của A ! nhưng không được khởi tạo)
+// A{
+// 	B b;
+// 	A(){}
+// 	a(){ ... }
+// }
+// B {...}
+
+// => Thoi rỗng
+// Aggretion: A lúc này có mối quan hệ aggretion với B (Khi B được gán giá trị trong hàm tạo hoặc khởi tạo là thuộc tính)
+// A{
+// 	B b = new B();
+// 	A(){}
+// 	a(){}
+// }
+
+
+// hoặc 
+// A{
+// 	B b;
+// 	A(B b){
+// 		b = b;
+// 	}
+// }
+
+// B{...}
+
+
+
+// => Thoi đục
+// Composition: A lúc này có mối quan hệ composition với B (Khi B là 1 biến final của A)
+// A{
+// 	final B b = new B();
+// 	...
+// }
+// B{...}
